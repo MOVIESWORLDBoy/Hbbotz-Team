@@ -320,12 +320,54 @@ Nᴀᴍᴇ 🧑- {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
+    BANP_LOG_TXT = """<b>⍟ Bᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</b>
+
+<b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
+
+<b>Nᴀᴍᴇ :</b> <b>{}</b>
+
+<b>Rᴇᴀsᴏɴ :</b> <code>{}</code>
+
+<b>⍟ #BannedUser ⍟</b>
+"""
+    UNBANP_LOG_TXT = """<b>⍟ UɴBᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</b>
+
+<b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
+
+<b>Nᴀᴍᴇ :</b> <b>{}</b>
+
+<b>⍟ #UnBannedUser ⍟</b>
+"""
+    BANG_LOG_TXT = """<b>⍟ Bᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</b>
+
+<b>Cʜᴀᴛ ID :</b> <code>{}</code>
+
+<b>Rᴇᴀsᴏɴ :</b> <code>{}</code>
+
+<b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
+
+<b>⍟ #BannedGroup ⍟</b>
+"""
+    UNBANG_LOG_TXT = """<b>⍟ UɴBᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</b>
+
+<b>Cʜᴀᴛ ID :</b> <code>{}</code>
+
+<b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
+
+<b>⍟ #UnBannedGroup ⍟</b>
+"""
     CAPTION = """
 <b>Fɪʟᴇꜱ Sɪᴢᴇ : </b> <code>{file_size}</code>
 <b>Fɪʟᴇ ɴᴀᴍᴇ  : </b> <code>{file_name}</code>  
-   ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-  ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ
-  </b>"""
+<b>
+╭─────── • ◆ • ───────╮
+     🔅 ʙᴏᴛ ᴍᴀᴅᴇ ʙy:  <a href="https://t.me/MW_BOTS">𝙼𝚆 𝙱𝙾𝚃𝚂</a>
+╰─────── • ◆ • ───────╯
+
+========== • ✠ • ==========
+▫️ ᴄʜᴀɴɴᴇʟ : @TEAMILLUMINIX
+▫️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : @illuminixchats
+========== • ✠ • ==========</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
