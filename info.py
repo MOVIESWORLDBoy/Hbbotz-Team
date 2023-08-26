@@ -53,7 +53,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Hbbotz")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Downloader
@@ -67,21 +67,21 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Verifying5754/3")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/MW_BOTS/104")
 VERIFY2_URL = environ.get('VERIFY2_URL', "tinyfy.in")
 VERIFY2_API = environ.get('VERIFY2_API', "055056697b8fa8d08a3d7681f4e7ed36222d8235")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '055056697b8fa8d08a3d7681f4e7ed36222d8235')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')),True)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')),True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "5")
+MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GOFte-Rz2tcxODg1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mCMdCb_ymAowZmNl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/illuminixchats')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+-7pynBTTg8U3ZmFk')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MW_BOTZ_SUPPORT')
 S_GROUP = environ.get('S_GROUP',"https://t.me/naruto_support_ch")
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
